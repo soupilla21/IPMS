@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InnovatePM Solutions | Precision Powered</title>
+
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            royal: "#003399",
+            forest: "#228B22",
+            softgray: "#F8F9FA",
+            ink: "#0B1220"
+          },
+          fontFamily: {
+            sans: ["Space Grotesk", "Inter", "Arial", "sans-serif"]
+          },
+          boxShadow: {
+            premium: "0 20px 60px rgba(0, 51, 153, 0.12)",
+            tactical: "0 0 20px rgba(34,139,34,0.30)"
+          },
+          backgroundImage: {
+            grid: "linear-gradient(rgba(0,51,153,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(0,51,153,0.07) 1px, transparent 1px)",
+            dots: "radial-gradient(rgba(0,51,153,0.18) 1px, transparent 1px)"
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200/80">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="#" class="flex items-center gap-3">
+          <img src="InnovatePM_Logo.jpg" alt="InnovatePM Solutions Logo" class="h-12 w-auto" />
+          <div>
+            <p class="text-lg font-bold tracking-tight">InnovatePM Solutions</p>
+            <p class="text-xs text-gray-500 uppercase tracking-[0.22em]">Precision Powered</p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
+          <a href="#capabilities" class="hover:text-royal transition">Capabilities</a>
+          <a href="#about" class="hover:text-royal transition">Framework</a>
+          <a href="#contact" class="hover:text-royal transition">Contact</a>
+        </nav>
+
+        <button id="menuBtn" aria-label="Open navigation menu" aria-expanded="false" class="md:hidden p-2 rounded-lg border border-gray-200 bg-white/70 backdrop-blur">
+          <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="hidden md:hidden pb-6">
+        <nav class="flex flex-col gap-4 text-sm font-semibold pt-2 border-t border-gray-100">
+          <a href="#capabilities" class="hover:text-royal transition py-1">Capabilities</a>
+          <a href="#about" class="hover:text-royal transition py-1">Framework</a>
+          <a href="#contact" class="hover:text-royal transition py-1">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-20">
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden border-b border-gray-200">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,51,153,0.05),transparent_34%),radial-gradient(circle_at_80%_10%,rgba(34,139,34,0.05),transparent_30%),linear-gradient(135deg,#ffffff,#F8F9FA,#ffffff)]"></div>
+      <div class="absolute inset-0 bg-grid bg-[length:42px_42px] opacity-70"></div>
+
+      <div class="absolute top-6 left-6 text-royal/30 text-xl font-bold">+</div>
+      <div class="absolute top-6 right-6 text-forest/30 text-xl font-bold">+</div>
+      <div class="absolute bottom-6 left-6 text-forest/30 text-xl font-bold">+</div>
+      <div class="absolute bottom-6 right-6 text-royal/30 text-xl font-bold">+</div>
+
+      <div class="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-36">
+        <div class="max-w-4xl">
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-md border border-gray-200 shadow-sm mb-8">
+            <span class="w-2 h-2 rounded-full bg-forest"></span>
+            <span class="text-sm font-semibold text-gray-700">Minority-Owned &bull; SDVOSB &bull; Technology-Driven Delivery</span>
+          </div>
+
+          <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[0.95] text-ink">
+            Precision Powered:
+            <span class="block text-royal">Delivering Strategic Solutions</span>
+          </h1>
+
+          <p class="mt-8 text-xl md:text-2xl text-gray-600 max-w-3xl leading-relaxed">
+            Agencies and prime contractors need execution partners who understand both the mission and the machinery. InnovatePM Solutions bridges that gap as a Minority-Owned SDVOSB delivering disciplined, technology-driven project management for complex federal and enterprise environments.
+          </p>
+
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="/capability-statement.pdf" target="_blank" rel="noopener" class="group relative overflow-hidden inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-royal text-white font-bold shadow-premium transition hover:scale-[1.03] hover:bg-blue-900">
+              <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full"></span>
+              <span class="relative">Download Capability Statement</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="relative w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+              </svg>
+            </a>
+
+            <a href="#contact" class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl border border-gray-300 bg-white/80 backdrop-blur-md text-ink font-bold hover:border-forest hover:text-forest transition">
+              Contact Us
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credentials Bar -->
+    <section class="bg-ink text-white border-y border-white/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 py-5">
+        <div class="grid md:grid-cols-3 gap-4 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
+          <div class="py-2 md:py-0">
+            <p class="text-xs uppercase tracking-widest text-gray-400">UEI</p>
+            <p class="font-bold mt-1">GWZQV3MFE4R6</p>
+          </div>
+          <div class="py-2 md:py-0">
+            <p class="text-xs uppercase tracking-widest text-gray-400">CAGE Code</p>
+            <p class="font-bold mt-1">09X84</p>
+          </div>
+          <div class="py-2 md:py-0 flex flex-col items-center justify-center gap-1">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest/30 border border-forest/50 text-forest font-bold text-sm">
+              SDVOSB Certified
+            </span>
+            <p class="text-xs text-gray-400 uppercase tracking-widest">Service-Disabled Veteran-Owned</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section id="capabilities" class="relative py-24 bg-white overflow-hidden">
+      <div class="absolute inset-0 bg-dots bg-[length:18px_18px] opacity-30"></div>
+
+      <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-extrabold text-forest uppercase tracking-widest">Capabilities</p>
+          <h2 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight">
+            Built for complex delivery environments.
+          </h2>
+          <p class="mt-5 text-lg text-gray-600">
+            InnovatePM Solutions helps agencies and partners move from planning to execution with clarity, discipline, and measurable outcomes.
+          </p>
+        </div>
+
+        <div class="mt-16 grid md:grid-cols-3 gap-8">
+          <div class="p-8 rounded-2xl border border-gray-200 border-l-4 border-l-royal bg-white/80 backdrop-blur-md shadow-premium hover:-translate-y-1 hover:shadow-tactical transition duration-300">
+            <div class="w-14 h-14 rounded-xl bg-royal/10 flex items-center justify-center text-royal mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold">Project Management Excellence</h3>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              Planning, execution, risk management, and Agile/Waterfall methodologies designed for disciplined delivery.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-2xl border border-gray-200 border-l-4 border-l-forest bg-white/80 backdrop-blur-md shadow-premium hover:-translate-y-1 hover:shadow-tactical transition duration-300">
+            <div class="w-14 h-14 rounded-xl bg-forest/10 flex items-center justify-center text-forest mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold">Technology-Driven Solutions</h3>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              AI project management, digital transformation, and data analytics oversight for modern operational environments.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-2xl border border-gray-200 border-l-4 border-l-royal bg-white/80 backdrop-blur-md shadow-premium hover:-translate-y-1 hover:shadow-tactical transition duration-300">
+            <div class="w-14 h-14 rounded-xl bg-royal/10 flex items-center justify-center text-royal mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold">Government Support</h3>
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              Proposal development, contract compliance, and subcontractor management for public-sector opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strategic Framework -->
+    <section id="about" class="relative py-24 bg-softgray overflow-hidden border-y border-gray-200">
+      <div class="absolute inset-0 bg-grid bg-[length:38px_38px] opacity-60"></div>
+
+      <div class="absolute top-6 left-6 text-royal/30 text-xl font-bold">+</div>
+      <div class="absolute top-6 right-6 text-forest/30 text-xl font-bold">+</div>
+      <div class="absolute bottom-6 left-6 text-forest/30 text-xl font-bold">+</div>
+      <div class="absolute bottom-6 right-6 text-royal/30 text-xl font-bold">+</div>
+
+      <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+          <!-- Strategic Framework Graphic -->
+          <div class="relative min-h-[520px] rounded-3xl bg-white/70 backdrop-blur-md border border-gray-200 shadow-premium overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,51,153,0.08),transparent_48%)]"></div>
+            <div class="absolute inset-0 bg-dots bg-[length:20px_20px] opacity-50"></div>
+
+            <div class="relative h-full min-h-[520px] flex items-center justify-center">
+              <div class="absolute w-72 h-72 rounded-full border border-royal/20"></div>
+              <div class="absolute w-96 h-96 rounded-full border border-forest/10"></div>
+
+              <div class="absolute top-20 left-1/2 -translate-x-1/2 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
+                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
+                <p class="font-bold text-royal">Resilience</p>
+              </div>
+
+              <div class="absolute bottom-24 left-10 sm:left-20 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
+                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
+                <p class="font-bold text-forest">Ownership</p>
+              </div>
+
+              <div class="absolute bottom-24 right-10 sm:right-20 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
+                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
+                <p class="font-bold text-royal">Innovation</p>
+              </div>
+
+              <div class="absolute top-[190px] left-1/2 w-px h-20 bg-royal/30"></div>
+              <div class="absolute top-[300px] left-[34%] w-32 h-px bg-forest/30 rotate-[28deg]"></div>
+              <div class="absolute top-[300px] right-[34%] w-32 h-px bg-royal/30 -rotate-[28deg]"></div>
+
+              <div class="relative z-10 w-44 h-44 rounded-full bg-ink border border-white/10 shadow-2xl flex flex-col items-center justify-center text-center px-6">
+                <p class="text-xs uppercase tracking-[0.28em] text-gray-400">Core</p>
+                <p class="mt-2 text-2xl font-bold text-white">InnovatePM</p>
+                <p class="mt-2 text-xs text-forest font-bold uppercase tracking-widest">Delivery System</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class="text-sm font-extrabold text-forest uppercase tracking-widest">The Discipline Behind the Delivery</p>
+            <h2 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight">
+              Institutional discipline for mission-critical execution.
+            </h2>
+
+            <p class="mt-6 text-lg text-gray-700 leading-relaxed">
+              InnovatePM Solutions was established to bridge the gap between mission-critical objectives and disciplined technical execution. The firm brings structured delivery, risk clarity, stakeholder alignment, and technology oversight to environments where outcomes cannot be left to chance.
+            </p>
+
+            <p class="mt-5 text-lg text-gray-700 leading-relaxed">
+              Our operating philosophy is grounded in Radical Accountability and the ROI framework:
+              <strong>Resilience, Ownership, and Innovation</strong>. This framework shapes how the firm manages complexity, clarifies decision rights, and turns strategy into measurable delivery.
+            </p>
+
+            <div class="mt-8 grid sm:grid-cols-3 gap-4">
+              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
+                <p class="text-3xl font-bold text-royal">15+</p>
+                <p class="text-sm text-gray-600 font-semibold mt-1">Years Enterprise Delivery</p>
+              </div>
+              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
+                <p class="text-3xl font-bold text-forest">PMP</p>
+                <p class="text-sm text-gray-600 font-semibold mt-1">Firm Qualification</p>
+              </div>
+              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
+                <p class="text-3xl font-bold text-royal">Veteran</p>
+                <p class="text-sm text-gray-600 font-semibold mt-1">Mission-Ready Discipline</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-ink text-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+      <div class="grid lg:grid-cols-3 gap-12">
+        <div>
+          <div class="flex items-center gap-3">
+            <img src="InnovatePM_Logo.jpg" alt="InnovatePM Solutions Logo" class="h-12 w-auto" />
+            <div>
+              <p class="text-lg font-bold">InnovatePM Solutions</p>
+              <p class="text-xs text-gray-400 uppercase tracking-widest">Precision Powered</p>
+            </div>
+          </div>
+
+          <p class="mt-6 text-gray-400 leading-relaxed">
+            Technology-driven project management support for agencies, primes, and mission-focused organizations.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-lg">NAICS Codes</h4>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <span class="px-4 py-2 rounded-full bg-white/10 text-sm font-semibold">541611</span>
+            <span class="px-4 py-2 rounded-full bg-white/10 text-sm font-semibold">541512</span>
+            <span class="px-4 py-2 rounded-full bg-white/10 text-sm font-semibold">541519</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-lg">Contact</h4>
+          <div class="mt-5 space-y-3 text-gray-400">
+            <p>
+              <a href="mailto:contact@innovatepmsolutions.com" class="hover:text-white transition">
+                contact@innovatepmsolutions.com
+              </a>
+            </p>
+            <p>Chicago, IL</p>
+          </div>
+
+          <a href="https://linkedin.com/in/reginalcampbell" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-6 text-white hover:text-forest transition font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between gap-4 text-sm text-gray-500">
+        <p>&copy; 2026 InnovatePM Solutions. All rights reserved.</p>
+        <p>Minority-Owned &bull; Service-Disabled Veteran-Owned Small Business</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const menuIcon = document.getElementById("menuIcon");
+    const closeIcon = document.getElementById("closeIcon");
+
+    function openMenu() {
+      mobileMenu.classList.remove("hidden");
+      menuIcon.classList.add("hidden");
+      closeIcon.classList.remove("hidden");
+      menuBtn.setAttribute("aria-expanded", "true");
+    }
+
+    function closeMenu() {
+      mobileMenu.classList.add("hidden");
+      menuIcon.classList.remove("hidden");
+      closeIcon.classList.add("hidden");
+      menuBtn.setAttribute("aria-expanded", "false");
+    }
+
+    menuBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      mobileMenu.classList.contains("hidden") ? openMenu() : closeMenu();
+    });
+
+    document.querySelectorAll("#mobileMenu a").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!mobileMenu.classList.contains("hidden") &&
+          !mobileMenu.contains(e.target) &&
+          !menuBtn.contains(e.target)) {
+        closeMenu();
+      }
+    });
+  </script>
+
+</body>
+</html>
