@@ -19,7 +19,8 @@
             ink: "#0B1220"
           },
           fontFamily: {
-            sans: ["Space Grotesk", "Inter", "Arial", "sans-serif"]
+            sans: ["Space Grotesk", "Inter", "Arial", "sans-serif"],
+            mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"]
           },
           boxShadow: {
             premium: "0 20px 60px rgba(0, 51, 153, 0.12)",
@@ -96,7 +97,8 @@
 
         <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
           <a href="#capabilities" class="hover:text-royal transition">Capabilities</a>
-          <a href="#about" class="hover:text-royal transition">Framework</a>
+          <a href="#philosophy" class="hover:text-royal transition">Philosophy</a>
+          <a href="#about" class="hover:text-royal transition">Enterprise OS</a>
           <a href="#contact" class="hover:text-royal transition">Contact</a>
         </nav>
 
@@ -113,7 +115,8 @@
       <div id="mobileMenu" class="hidden md:hidden pb-6">
         <nav class="flex flex-col gap-4 text-sm font-semibold pt-2 border-t border-gray-100">
           <a href="#capabilities" class="hover:text-royal transition py-1">Capabilities</a>
-          <a href="#about" class="hover:text-royal transition py-1">Framework</a>
+          <a href="#philosophy" class="hover:text-royal transition py-1">Philosophy</a>
+          <a href="#about" class="hover:text-royal transition py-1">Enterprise OS</a>
           <a href="#contact" class="hover:text-royal transition py-1">Contact</a>
         </nav>
       </div>
@@ -145,7 +148,7 @@
           </h1>
 
           <p class="mt-8 text-xl md:text-2xl text-gray-600 max-w-3xl leading-relaxed">
-            Agencies and prime contractors need execution partners who understand both the mission and the machinery. InnovatePM Solutions bridges that gap as a Minority-Owned SDVOSB delivering disciplined, technology-driven project management for complex federal and enterprise environments.
+            Leading Enterprise Transformation from Organizational Theater to Radical Accountability.
           </p>
 
           <div class="mt-10 flex flex-col sm:flex-row gap-4">
@@ -248,86 +251,406 @@
       </div>
     </section>
 
-    <!-- Strategic Framework -->
-    <section id="about" class="relative py-24 bg-softgray overflow-hidden border-y border-gray-200">
-      <div class="absolute inset-0 bg-grid bg-[length:38px_38px] opacity-60"></div>
+    <!-- Enterprise Operating System -->
+    <section id="about" class="relative py-28 bg-softgray overflow-hidden border-y border-gray-200">
 
-      <div class="absolute top-6 left-6 text-royal/30 text-xl font-bold select-none" aria-hidden="true">+</div>
-      <div class="absolute top-6 right-6 text-forest/30 text-xl font-bold select-none" aria-hidden="true">+</div>
-      <div class="absolute bottom-6 left-6 text-forest/30 text-xl font-bold select-none" aria-hidden="true">+</div>
-      <div class="absolute bottom-6 right-6 text-royal/30 text-xl font-bold select-none" aria-hidden="true">+</div>
+      <!-- Layered background: grid + dots -->
+      <div class="absolute inset-0 bg-grid bg-[length:38px_38px] opacity-50"></div>
+      <div class="absolute inset-0 bg-dots bg-[length:22px_22px] opacity-20"></div>
+
+      <!-- Corner markers -->
+      <div class="absolute top-6 left-6 text-royal/25 text-xl font-bold select-none" aria-hidden="true">+</div>
+      <div class="absolute top-6 right-6 text-forest/25 text-xl font-bold select-none" aria-hidden="true">+</div>
+      <div class="absolute bottom-6 left-6 text-forest/25 text-xl font-bold select-none" aria-hidden="true">+</div>
+      <div class="absolute bottom-6 right-6 text-royal/25 text-xl font-bold select-none" aria-hidden="true">+</div>
 
       <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-          <!-- Strategic Framework Graphic -->
-          <div class="relative min-h-[520px] rounded-3xl bg-white/70 backdrop-blur-md border border-gray-200 shadow-premium overflow-hidden">
-            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,51,153,0.08),transparent_48%)]"></div>
-            <div class="absolute inset-0 bg-dots bg-[length:20px_20px] opacity-50"></div>
-
-            <div class="relative h-full min-h-[520px] flex items-center justify-center">
-              <div class="absolute w-72 h-72 rounded-full border border-royal/20"></div>
-              <div class="absolute w-96 h-96 rounded-full border border-forest/10"></div>
-
-              <div class="absolute top-20 left-1/2 -translate-x-1/2 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
-                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
-                <p class="font-bold text-royal">Resilience</p>
-              </div>
-
-              <div class="absolute bottom-24 left-10 sm:left-20 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
-                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
-                <p class="font-bold text-forest">Ownership</p>
-              </div>
-
-              <div class="absolute bottom-24 right-10 sm:right-20 w-40 rounded-2xl bg-white border border-gray-200 shadow-lg p-4 text-center">
-                <p class="text-xs uppercase tracking-widest text-gray-500">ROI Node</p>
-                <p class="font-bold text-royal">Innovation</p>
-              </div>
-
-              <div class="absolute top-[190px] left-1/2 w-px h-20 bg-royal/30"></div>
-              <div class="absolute top-[300px] left-[34%] w-32 h-px bg-forest/30 rotate-[28deg]"></div>
-              <div class="absolute top-[300px] right-[34%] w-32 h-px bg-royal/30 -rotate-[28deg]"></div>
-
-              <div class="relative z-10 w-44 h-44 rounded-full bg-ink border border-white/10 shadow-2xl flex flex-col items-center justify-center text-center px-6">
-                <p class="text-xs uppercase tracking-[0.28em] text-gray-400">Core</p>
-                <p class="mt-2 text-2xl font-bold text-white">InnovatePM</p>
-                <p class="mt-2 text-xs text-forest font-bold uppercase tracking-widest">Delivery System</p>
-              </div>
-            </div>
+        <!-- Section header -->
+        <div class="max-w-3xl mb-16">
+          <div class="flex items-center gap-3 mb-5">
+            <span class="font-mono text-xs text-forest font-semibold tracking-[0.2em] uppercase bg-forest/10 border border-forest/25 rounded px-2.5 py-1">sys.engine.v2</span>
+            <div class="h-px flex-1 max-w-[60px] bg-forest/30"></div>
           </div>
-
-          <div>
-            <p class="text-sm font-extrabold text-forest uppercase tracking-widest">The Discipline Behind the Delivery</p>
-            <h2 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight">
-              Institutional discipline for mission-critical execution.
-            </h2>
-
-            <p class="mt-6 text-lg text-gray-700 leading-relaxed">
-              InnovatePM Solutions was established to bridge the gap between mission-critical objectives and disciplined technical execution. The firm brings structured delivery, risk clarity, stakeholder alignment, and technology oversight to environments where outcomes cannot be left to chance.
-            </p>
-
-            <p class="mt-5 text-lg text-gray-700 leading-relaxed">
-              Our operating philosophy is grounded in Radical Accountability and the ROI framework:
-              <strong>Resilience, Ownership, and Innovation</strong>. This framework shapes how the firm manages complexity, clarifies decision rights, and turns strategy into measurable delivery.
-            </p>
-
-            <div class="mt-8 grid sm:grid-cols-3 gap-4">
-              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
-                <p class="text-3xl font-bold text-royal">15+</p>
-                <p class="text-sm text-gray-600 font-semibold mt-1">Years Enterprise Delivery</p>
-              </div>
-              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
-                <p class="text-3xl font-bold text-forest">PMP</p>
-                <p class="text-sm text-gray-600 font-semibold mt-1">Firm Qualification</p>
-              </div>
-              <div class="p-5 rounded-xl bg-white/80 backdrop-blur-md border border-gray-200">
-                <p class="text-3xl font-bold text-royal">Veteran</p>
-                <p class="text-sm text-gray-600 font-semibold mt-1">Mission-Ready Discipline</p>
-              </div>
-            </div>
-          </div>
-
+          <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-ink leading-[1.05]">
+            Enterprise<br class="hidden md:block"/> Operating System
+          </h2>
+          <p class="mt-5 text-lg text-gray-600 leading-relaxed max-w-2xl">
+            A systems-thinking architecture that transforms organizational complexity into governed, repeatable performance. Built around intelligence, accountability, and rigor — not credentials.
+          </p>
         </div>
+
+        <!-- 3-Node Systems Flow -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 relative">
+
+          <!-- Desktop connector lines between nodes -->
+          <div class="hidden lg:block absolute top-1/2 left-[33%] w-[6%] h-px -translate-y-1/2 z-10" style="background: linear-gradient(90deg, rgba(0,51,153,0.3), rgba(0,51,153,0.15));"></div>
+          <div class="hidden lg:block absolute top-1/2 left-[67%] w-[6%] h-px -translate-y-1/2 z-10" style="background: linear-gradient(90deg, rgba(34,139,34,0.2), rgba(34,139,34,0.35));"></div>
+          <!-- Arrowheads -->
+          <div class="hidden lg:absolute lg:block top-1/2 left-[38.5%] -translate-y-1/2 z-10 w-0 h-0" style="border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 7px solid rgba(0,51,153,0.35);"></div>
+          <div class="hidden lg:absolute lg:block top-1/2 left-[72.5%] -translate-y-1/2 z-10 w-0 h-0" style="border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 7px solid rgba(34,139,34,0.4);"></div>
+
+          <!-- ── NODE 1: Strategic Intent & Intelligence ── -->
+          <div class="group relative rounded-2xl overflow-hidden shadow-premium hover:-translate-y-1 transition-all duration-300">
+
+            <!-- Glassmorphism card -->
+            <div class="absolute inset-0 bg-white/80 backdrop-blur-md"></div>
+            <div class="absolute inset-0 bg-dots bg-[length:18px_18px] opacity-40"></div>
+            <div class="absolute inset-0 border border-gray-200 rounded-2xl group-hover:border-royal/40 transition-colors duration-300"></div>
+
+            <!-- Active pulse indicator -->
+            <div class="absolute top-4 right-4 z-20 flex items-center gap-1.5">
+              <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-forest opacity-60"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-forest"></span>
+              </span>
+              <span class="font-mono text-[10px] text-forest font-semibold tracking-widest uppercase">ACTIVE</span>
+            </div>
+
+            <div class="relative z-10 p-8 flex flex-col h-full">
+
+              <!-- Node ID -->
+              <div class="flex items-center gap-2 mb-6">
+                <span class="font-mono text-[10px] text-gray-400 tracking-[0.22em] uppercase">NODE_01</span>
+                <div class="h-px flex-1 bg-gray-200"></div>
+              </div>
+
+              <!-- Icon -->
+              <div class="w-12 h-12 rounded-xl bg-royal/10 border border-royal/20 flex items-center justify-center mb-5 group-hover:bg-royal/15 group-hover:shadow-tactical transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-royal" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+
+              <!-- Content -->
+              <h3 class="text-xl font-bold text-ink mb-2 leading-snug">Strategic Intent<br/>&amp; Intelligence</h3>
+
+              <!-- Metadata tags -->
+              <div class="flex flex-wrap gap-1.5 mb-4">
+                <span class="font-mono text-[10px] text-royal/80 bg-royal/8 border border-royal/15 rounded px-2 py-0.5 uppercase tracking-wider">Multi-Agent Research</span>
+                <span class="font-mono text-[10px] text-royal/80 bg-royal/8 border border-royal/15 rounded px-2 py-0.5 uppercase tracking-wider">Competitor Intel</span>
+              </div>
+
+              <p class="text-gray-600 text-sm leading-relaxed flex-1">
+                Deploying multi-agent AI systems and competitive intelligence to transform raw market signal into actionable strategic clarity — before a single resource is committed.
+              </p>
+
+              <!-- System spec footer -->
+              <div class="mt-6 pt-5 border-t border-gray-200">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest">Input Layer</span>
+                  <span class="font-mono text-[10px] text-forest font-semibold">STATUS: LIVE</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ── NODE 2: Radical Accountability ── -->
+          <div class="group relative rounded-2xl overflow-hidden shadow-premium hover:-translate-y-1 transition-all duration-300">
+
+            <div class="absolute inset-0 bg-white/80 backdrop-blur-md"></div>
+            <div class="absolute inset-0 bg-dots bg-[length:18px_18px] opacity-40"></div>
+            <div class="absolute inset-0 border border-gray-200 rounded-2xl group-hover:border-royal/40 transition-colors duration-300"></div>
+
+            <!-- Active pulse indicator -->
+            <div class="absolute top-4 right-4 z-20 flex items-center gap-1.5">
+              <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-forest opacity-60" style="animation-delay: 0.4s;"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-forest"></span>
+              </span>
+              <span class="font-mono text-[10px] text-forest font-semibold tracking-widest uppercase">ACTIVE</span>
+            </div>
+
+            <div class="relative z-10 p-8 flex flex-col h-full">
+
+              <div class="flex items-center gap-2 mb-6">
+                <span class="font-mono text-[10px] text-gray-400 tracking-[0.22em] uppercase">NODE_02</span>
+                <div class="h-px flex-1 bg-gray-200"></div>
+              </div>
+
+              <div class="w-12 h-12 rounded-xl bg-royal/10 border border-royal/20 flex items-center justify-center mb-5 group-hover:bg-royal/15 group-hover:shadow-tactical transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-royal" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+
+              <h3 class="text-xl font-bold text-ink mb-2 leading-snug">Radical<br/>Accountability</h3>
+
+              <div class="flex flex-wrap gap-1.5 mb-4">
+                <span class="font-mono text-[10px] text-royal/80 bg-royal/8 border border-royal/15 rounded px-2 py-0.5 uppercase tracking-wider">Ownership Logic</span>
+                <span class="font-mono text-[10px] text-royal/80 bg-royal/8 border border-royal/15 rounded px-2 py-0.5 uppercase tracking-wider">Anti-Theater</span>
+              </div>
+
+              <p class="text-gray-600 text-sm leading-relaxed flex-1">
+                Dismantling organizational theater by embedding direct ownership at every decision node. No ambiguous mandates. No diffused responsibility. Outcomes are named, tracked, and owned.
+              </p>
+
+              <div class="mt-6 pt-5 border-t border-gray-200">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest">Process Layer</span>
+                  <span class="font-mono text-[10px] text-forest font-semibold">STATUS: LIVE</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- ── NODE 3: Governed Execution ── -->
+          <div class="group relative rounded-2xl overflow-hidden shadow-premium hover:-translate-y-1 transition-all duration-300">
+
+            <div class="absolute inset-0 bg-white/80 backdrop-blur-md"></div>
+            <div class="absolute inset-0 bg-dots bg-[length:18px_18px] opacity-40"></div>
+            <div class="absolute inset-0 border border-gray-200 rounded-2xl group-hover:border-forest/40 transition-colors duration-300"></div>
+
+            <!-- Active pulse indicator — forest for the output/governance node -->
+            <div class="absolute top-4 right-4 z-20 flex items-center gap-1.5">
+              <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-forest opacity-60" style="animation-delay: 0.8s;"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-forest"></span>
+              </span>
+              <span class="font-mono text-[10px] text-forest font-semibold tracking-widest uppercase">ACTIVE</span>
+            </div>
+
+            <div class="relative z-10 p-8 flex flex-col h-full">
+
+              <div class="flex items-center gap-2 mb-6">
+                <span class="font-mono text-[10px] text-gray-400 tracking-[0.22em] uppercase">NODE_03</span>
+                <div class="h-px flex-1 bg-gray-200"></div>
+              </div>
+
+              <div class="w-12 h-12 rounded-xl bg-forest/10 border border-forest/20 flex items-center justify-center mb-5 group-hover:bg-forest/15 group-hover:shadow-tactical transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-forest" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              </div>
+
+              <h3 class="text-xl font-bold text-ink mb-2 leading-snug">Governed<br/>Execution</h3>
+
+              <div class="flex flex-wrap gap-1.5 mb-4">
+                <span class="font-mono text-[10px] text-forest/80 bg-forest/8 border border-forest/20 rounded px-2 py-0.5 uppercase tracking-wider">Rigorous Governance</span>
+                <span class="font-mono text-[10px] text-forest/80 bg-forest/8 border border-forest/20 rounded px-2 py-0.5 uppercase tracking-wider">PMP-Certified Oversight</span>
+              </div>
+
+              <p class="text-gray-600 text-sm leading-relaxed flex-1">
+                Applying PMP-certified governance logic as a structural standard — not a credential to list. Risk controls, change cadences, and quality gates enforced at the program level.
+              </p>
+
+              <!-- System spec footer -->
+              <div class="mt-6 pt-5 border-t border-gray-200">
+                <div class="flex items-center justify-between">
+                  <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest">Output Layer</span>
+                  <span class="font-mono text-[10px] text-forest font-semibold">STATUS: LIVE</span>
+                </div>
+                <!-- PMP as system requirement, not badge -->
+                <div class="mt-3 flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-forest flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                  <span class="font-mono text-[10px] text-gray-500 uppercase tracking-wider">sys.requirement: PMP_GOVERNANCE_v1</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div><!-- end 3-node grid -->
+
+        <!-- System stats bar -->
+        <div class="mt-10 rounded-xl bg-white/60 backdrop-blur-sm border border-gray-200 px-6 py-4">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+            <div class="pb-4 md:pb-0 md:pr-6">
+              <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest block mb-1">sys.experience</span>
+              <p class="text-2xl font-bold text-ink">15+</p>
+              <p class="text-xs text-gray-500 font-medium mt-0.5">Years Enterprise Delivery</p>
+            </div>
+            <div class="pt-4 md:pt-0 md:px-6">
+              <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest block mb-1">sys.governance</span>
+              <p class="text-2xl font-bold text-royal">PMP</p>
+              <p class="text-xs text-gray-500 font-medium mt-0.5">Certified Governance Logic</p>
+            </div>
+            <div class="pb-4 md:pb-0 md:px-6">
+              <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest block mb-1">sys.designation</span>
+              <p class="text-2xl font-bold text-ink">SDVOSB</p>
+              <p class="text-xs text-gray-500 font-medium mt-0.5">Veteran-Owned Certification</p>
+            </div>
+            <div class="pt-4 md:pt-0 md:pl-6">
+              <span class="font-mono text-[10px] text-gray-400 uppercase tracking-widest block mb-1">sys.focus</span>
+              <p class="text-2xl font-bold text-forest">AI+PM</p>
+              <p class="text-xs text-gray-500 font-medium mt-0.5">Multi-Agent + Program Mgmt</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         KINETIC PROCESS FLOW — Core Philosophy
+    ============================================================= -->
+    <section id="philosophy" class="relative py-24 bg-ink overflow-hidden">
+
+      <!-- Subtle diagonal grid texture -->
+      <div class="absolute inset-0 opacity-[0.04]" style="background-image: linear-gradient(rgba(255,255,255,0.6) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.6) 1px, transparent 1px); background-size: 48px 48px;"></div>
+
+      <!-- Top edge accent -->
+      <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-royal/60 to-transparent"></div>
+
+      <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+
+        <!-- Section header -->
+        <div class="max-w-2xl mb-16">
+          <p class="text-xs font-bold text-forest uppercase tracking-[0.25em] mb-4">Core Philosophy</p>
+          <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-white leading-[1.08]">
+            From theater<br class="hidden md:block"/> to accountability.
+          </h2>
+          <p class="mt-5 text-gray-400 text-lg leading-relaxed">
+            A disciplined four-stage operating system for enterprise transformation — built around ownership, not optics.
+          </p>
+        </div>
+
+        <!-- Desktop: horizontal connected chevron flow -->
+        <!-- Mobile: stacked vertical stepper -->
+        <div class="relative">
+
+          <!-- Desktop connector line -->
+          <div class="hidden lg:block absolute top-[72px] left-0 right-0 h-px bg-gradient-to-r from-transparent via-royal/30 to-transparent z-0"></div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 relative z-10">
+
+            <!-- STAGE 01 -->
+            <div class="group relative bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 hover:bg-white/[0.07] hover:border-royal/40 transition-all duration-300 flex flex-col">
+
+              <!-- Large background number -->
+              <div class="absolute -top-3 right-5 text-[7rem] font-bold leading-none text-white/[0.04] select-none pointer-events-none group-hover:text-royal/10 transition-colors duration-300" aria-hidden="true">01</div>
+
+              <!-- Stage marker -->
+              <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-royal/20 border border-royal/30 flex items-center justify-center flex-shrink-0 group-hover:bg-royal/30 transition-colors duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-royal" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                  </svg>
+                </div>
+                <span class="text-xs font-bold text-royal uppercase tracking-widest">Stage 01</span>
+              </div>
+
+              <!-- Content -->
+              <h3 class="text-lg font-bold text-white mb-3 leading-snug">Alignment &amp; Audit</h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Eliminating organizational theater by identifying the gap between stated goals and actual execution.
+              </p>
+
+              <!-- Deliverable badge -->
+              <div class="mt-6 pt-5 border-t border-white/[0.08]">
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-forest/90 bg-forest/10 border border-forest/20 rounded-full px-3 py-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/>
+                  </svg>
+                  Deliverable: Validated Gap Analysis
+                </span>
+              </div>
+            </div>
+
+            <!-- STAGE 02 -->
+            <div class="group relative bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 hover:bg-white/[0.07] hover:border-royal/40 transition-all duration-300 flex flex-col">
+              <div class="absolute -top-3 right-5 text-[7rem] font-bold leading-none text-white/[0.04] select-none pointer-events-none group-hover:text-royal/10 transition-colors duration-300" aria-hidden="true">02</div>
+
+              <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-royal/20 border border-royal/30 flex items-center justify-center flex-shrink-0 group-hover:bg-royal/30 transition-colors duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-royal" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                  </svg>
+                </div>
+                <span class="text-xs font-bold text-royal uppercase tracking-widest">Stage 02</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white mb-3 leading-snug">Tactical Roadmap</h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Moving beyond abstract strategy into a high-agency plan with defined milestones and ownership.
+              </p>
+
+              <div class="mt-6 pt-5 border-t border-white/[0.08]">
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-forest/90 bg-forest/10 border border-forest/20 rounded-full px-3 py-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/>
+                  </svg>
+                  Deliverable: Execution Matrix
+                </span>
+              </div>
+            </div>
+
+            <!-- STAGE 03 -->
+            <div class="group relative bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 hover:bg-white/[0.07] hover:border-royal/40 transition-all duration-300 flex flex-col">
+              <div class="absolute -top-3 right-5 text-[7rem] font-bold leading-none text-white/[0.04] select-none pointer-events-none group-hover:text-royal/10 transition-colors duration-300" aria-hidden="true">03</div>
+
+              <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-royal/20 border border-royal/30 flex items-center justify-center flex-shrink-0 group-hover:bg-royal/30 transition-colors duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-royal" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                  </svg>
+                </div>
+                <span class="text-xs font-bold text-royal uppercase tracking-widest">Stage 03</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white mb-3 leading-snug">Transformation Execution</h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Deploying precise program management to drive enterprise-scale change without the friction.
+              </p>
+
+              <div class="mt-6 pt-5 border-t border-white/[0.08]">
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-forest/90 bg-forest/10 border border-forest/20 rounded-full px-3 py-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/>
+                  </svg>
+                  Deliverable: Program Delivery Report
+                </span>
+              </div>
+            </div>
+
+            <!-- STAGE 04 -->
+            <div class="group relative bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 hover:bg-white/[0.07] hover:border-forest/40 transition-all duration-300 flex flex-col">
+              <div class="absolute -top-3 right-5 text-[7rem] font-bold leading-none text-white/[0.04] select-none pointer-events-none group-hover:text-forest/10 transition-colors duration-300" aria-hidden="true">04</div>
+
+              <div class="flex items-center gap-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-forest/20 border border-forest/30 flex items-center justify-center flex-shrink-0 group-hover:bg-forest/30 transition-colors duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-forest" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                  </svg>
+                </div>
+                <span class="text-xs font-bold text-forest uppercase tracking-widest">Stage 04</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white mb-3 leading-snug">Operational Maturity</h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Standardizing radical accountability to ensure results are sustainable and repeatable.
+              </p>
+
+              <div class="mt-6 pt-5 border-t border-white/[0.08]">
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-forest/90 bg-forest/10 border border-forest/20 rounded-full px-3 py-1.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/>
+                  </svg>
+                  Deliverable: Accountability Framework
+                </span>
+              </div>
+            </div>
+
+          </div><!-- end grid -->
+
+          <!-- Mobile vertical stepper connector (hidden on lg) -->
+          <div class="lg:hidden absolute left-[35px] top-[72px] bottom-[72px] w-px bg-gradient-to-b from-royal/40 via-royal/20 to-forest/40 z-0 pointer-events-none"></div>
+
+        </div><!-- end relative -->
+
+        <!-- Bottom momentum bar -->
+        <div class="mt-12 flex items-center gap-4">
+          <div class="h-px flex-1 bg-gradient-to-r from-royal/40 via-royal/10 to-transparent"></div>
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-[0.2em] whitespace-nowrap">Radical Accountability &rarr; Measurable Outcomes</span>
+          <div class="h-px flex-1 bg-gradient-to-l from-forest/40 via-forest/10 to-transparent"></div>
+        </div>
+
       </div>
     </section>
 
